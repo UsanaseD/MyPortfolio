@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #101c55;
+  font-family: 'Courier New', Courier, monospace;
+}
+.link_brand {
+  margin-left: 160px;
+  color: #ffffff;
+  overflow: hidden;
+}
+.links {
+  margin-left: 500px;
+  font-size: large;
+}
+.links_button {
+  margin-right: 100px;
+  width: 100px;
+  border: none;
+  background: #ff6000;
+  color: #ffffff;
+}
+.nav-link:active {
+  color: #ff6000;
+}
+/*headers*/
+h3 {
+  font-size: small !important;
+}
+
+.links_section a {
+  position: relative;
+  margin-top: 0;
+  float: right;
+  color: #3b3b3b;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+}
+.links_section h2 {
+  position: inherit;
+  margin-top: 1px;
+}
+.search_section {
+  margin-top: absolute;
+  background-repeat: repeat;
+  background-color: #101c55;
+  color: #e0d9d9;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  animation-name: search;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 27px;
+
+}
+
+@keyframes search {
+  from {
+    color: #e0d9d9;
+  }
+  to {
+    color: #797474;
+  }
+}
+
+form.search {
+  margin-top: 15px;
+  display: inline-flex;
+  font-size: 20px;
+  margin-left: 32%;
+  box-shadow: 0 1px 12px 0 #3b3b3b;
+}
+form.search input[type="text"] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 430px;
+  background: white;
+  color: #3b3b3b;
+}
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ffffff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.restaurants {
+  background: #f5fafc;
+  position: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.restaurants p {
+  position: absolute;
+  color: #151515;
+  margin-top: 65px;
+  margin-left: 500px;
+  text-align: center;
+  font-size: 60px;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+.restaurants h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+.card h5{
+  font-family: 'Courier New', Courier, monospace;
+}
+.photo {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 2px;
+  width: 270px;
+  height: auto;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.photo_disc {
+  position: inherit;
+  background-image: url("../images/Assets/restaurant.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+  overflow: hidden;
+}
+.photo_disc h5 {
+  margin-left: 60px;
+  font-weight: bold;
+  color: #151515;
+}
+.photo_disc h6 {
+  margin-left: 60px;
+  color: #3b3b3b;
+}
+.photo img {
+  position: relative;
+  width: 100%;
+}
+table {
+  position: inherit;
+  margin-left: 10%;
+  width: 200px;
+  height: auto;
+}
+.left button {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 110px;
+  height: 10%;
+  width: 5%;
+  background: white;
+  opacity: 0.9;
+  font-size: 40px;
+  border: none;
+  color: #ff6000;
+  z-index: 1;
+}
+.right button {
+  position: absolute;
+  margin-top: -245px;
+  right: 80px;
+  height: 10%;
+  width: 5%;
+  background: white;
+  font-size: 40px;
+  opacity: 0.9;
+  border: none;
+  color: #ff6000;
+  z-index: 1;
+}
+.explore button {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 50px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: #ff6000;
+  font-weight: 15px;
+  color: #ffffff;
+}
+.how_it_works {
+  background: #ffffff;
+  position: inherit;
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+}
+.how_it_works p {
+  position: absolute;
+  color: #151515;
+  margin-top: 65px;
+  margin-left: 500px;
+  text-align: center;
+  font-size: 60px;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+.step1 {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 2px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background: #ffffff;
+  border: none;
+}
+.card2 {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 2px;
+  background: #151515;
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border: none;
+}
+.card_disc {
+  position: inherit;
+  height: auto;
+  left: 0;
+  margin-top: 70px;
+  width: 156px;
+  overflow: hidden;
+}
+.columns_space {
+  padding-right: 260px;
+}
+.card3 {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 2px;
+  background: #151515;
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border: none;
+  padding-right: 60px;
+}
+.card4 {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 2px;
+  background: #151515;
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border: none;
+  padding-right: 60px;
+}
+.getapp {
+  background: #ffffff;
+  position: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contactus {
+  background: #3b3b3b;
+  position: relative;
+  width: 100%;
+}
+
+div.contactus h5 {
+  margin-left: 80px;
+  color: #ffffff;
+}
+
+
+.card-deck {
+  overflow-x: hidden !important;
+}
+.card {
+  line-height: 0.4;
+}
+.card h5 {
+  font-size: 1em;
+}
+.card-body span {
+  font-size: 13px;
+}
+.card div img {
+  width: 40px;
+  height: 40px;
+}
+/* App section */
+
+div.getapp img.phone {
+  height: 470px;
+  margin-top: -85px;
+}
+div.getapp button {
+  background: #ffffff;
+  color: #ff6000;
+  margin-top: 20px;
+  border: none;
+  margin-left: 40px;
+  width: 140px;
+  font-weight: bold;
+}
+div.contactus button {
+  color: #ffffff;
+  background: #ff6000;
+  position: relative;
+  margin-left: 446px;
+  border: none;
+  width: 140px;
+  font-weight: bold;
+}
+.footer {
+  background: #151515;
+  position: relative;
+  width: 100%;
+}
+.foot {
+  color: #ff6000;
+}
+.resto {
+  margin-top: absolute;
+  background-image: url("../images/Assets/resto_bg.png");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+div.resto img {
+  margin-left: 100px;
+  height: 90px;
+}
+.btn{
+  background: #ffffff;
+  color: #101c55;
+  border: 1px #101c55 solid ;
+  border-radius: 50px;
+}
+.btn:hover {
+  background: #101c55;
+  color: #ffffff;
+  border: 1px #101c55 solid ;
+}
+.container-fluid {
+  font-family: 'Courier New', Courier, monospace;
+}
+.container-fluid h1{
+  font-family: 'Courier New', Courier, monospace;
+}
