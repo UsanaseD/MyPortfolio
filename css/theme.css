@@ -83,6 +83,7 @@ h3 {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 .gitlab {
   position: relative;
@@ -90,6 +91,7 @@ h3 {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 .github {
   position: relative;
@@ -97,6 +99,7 @@ h3 {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 .jira {
   position: relative;
@@ -104,6 +107,7 @@ h3 {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 @keyframes example {
   0% {
@@ -184,7 +188,7 @@ form.search button {
 .photo_disc h5 {
   margin-left: 60px;
   font-weight: bold;
-  color: #151515;
+  color: #c82727;
 }
 .photo_disc h6 {
   margin-left: 60px;
@@ -268,7 +272,7 @@ table {
   position: relative;
   margin-top: 180px;
   margin-left: 2px;
-  background: #151515;
+  background: #6d0580;
   width: 100px;
   height: 60px;
   background: #ffffff;
@@ -385,12 +389,24 @@ div.resto img {
   margin-left: 100px;
   height: 90px;
 }
+.submit_btn{
+  background: #ffffff;
+  color: #101c55;
+  border: 1px #101c55 solid;
+  border-radius: 50px;
+}
+.submit_btn:hover{
+  background: #101c55;
+  color: #ffffff;
+  border: 1px #101c55 solid;
+}
 .btn {
   background: #ffffff;
   color: #101c55;
   border: 1px #101c55 solid;
   border-radius: 50px;
 }
+
 .btn:hover {
   background: #101c55;
   color: #ffffff;
