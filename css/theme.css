@@ -403,7 +403,7 @@ div.resto img {
   font-family: "Courier New", Courier, monospace;
 }
 .profile{
-  height: 10%;
-  width: 5%;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
