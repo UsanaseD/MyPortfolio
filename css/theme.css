@@ -389,13 +389,13 @@ div.resto img {
   margin-left: 100px;
   height: 90px;
 }
-.submit_btn{
+.submit_btn {
   background: #ffffff;
   color: #101c55;
   border: 1px #101c55 solid;
   border-radius: 50px;
 }
-.submit_btn:hover{
+.submit_btn:hover {
   background: #101c55;
   color: #ffffff;
   border: 1px #101c55 solid;
@@ -418,8 +418,34 @@ div.resto img {
 .container-fluid h1 {
   font-family: "Courier New", Courier, monospace;
 }
-.profile{
+.profile {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+.qn_title {
+  width: 600px;
+  border-style: outset;
+  align-self: center;
+}
+.title_bar {
+  height: 25px;
+  width: 100%;
+}
+.max_min_button {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  float: left;
+  background-color: #101c55;
+  color: #ffffff;
+  font-size: larger;
+  text-align: center;
+}
+.news_body {
+  height: 0px;
+  overflow-y: scroll;
+}
+.simpleArraySum {
+  border: none;
 }

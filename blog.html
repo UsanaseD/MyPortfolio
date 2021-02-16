@@ -1,0 +1,66 @@
+<head>
+    <title> Usanase's</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/theme.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<body>
+    </nav> -->
+    <nav class="navbar navbar-expand-md navbar-light bg-blue fixed-top">
+        <span class="profile">
+            <img src="./images/Assets/usanase.jpg" class="card-img-top" alt="...">
+        </span>
+        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon bg-light "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item text-light nav-link active">Portofolio</a>
+                <a href="#hackerRank" class="nav-item text-light nav-link active">HackerRank_Solutions</a>
+
+                <a href="#restaurants" class="nav-item text-light nav-link">Poems</a>
+            </div>
+        </div>
+    </nav>
+<div class="container-fluid " style="background-color: #ffffff; padding: 100px 16px;" id="hackerRank">
+    <h1 class="text-center font-weight-bold"> HackerRank Solutions </h1></br>
+    <div class="d-flex justify-content-center">
+    <div class="qn_title">
+        <div class="title_bar text-center font-weight-bold">Simple Array Sum
+            <div class="max_min_button">+</div>
+        </div>
+        <div class="news_body">Given an array of integers, find the sum of its elements.
+        
+        For example, if the array arr = [1,2,3],1+2+3 = 6 , so return 6.
+    
+        <div class="font-weight-bold">Answer(C++):</div></br>
+        <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="50" readonly>
+            #include<iostream>
+                using namespace std;
+                int main(){
+                int size , arr , sum = 0;
+                cin>>size;
+                while(size--){
+                cin>> arr;
+                sum += arr;
+                }
+                cout<< sum; return 0; }
+        </textarea>
+    <div class="font-weight-bold">Answer(Js):</div></br>
+        <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="50" readonly>
+         function simpleArraySum(ar) {
+         var sum = ar.reduce((a,b) => a + b ,0);
+        return sum
+        }
+                </textarea>
+    </div>
+    </div>
+</div>
+        <script src="./js/jquery.min.js"></script>
+        <script src="jquery-linenumbers.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
