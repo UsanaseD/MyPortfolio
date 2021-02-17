@@ -424,9 +424,9 @@ div.resto img {
   border-radius: 50%;
 }
 .qn_title {
-  width: 600px;
-  border-style: outset;
+  width: 800px;
   align-self: center;
+  box-shadow: 3px 8px #d6d4d4;
 }
 .title_bar {
   height: 25px;
@@ -441,6 +441,7 @@ div.resto img {
   color: #ffffff;
   font-size: larger;
   text-align: center;
+  cursor:pointer;
 }
 .news_body {
   height: 0px;
@@ -448,4 +449,30 @@ div.resto img {
 }
 .simpleArraySum {
   border: none;
+  background-color: #080808;
+  color: #13ce0c;
+}
+#fst{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+#snd{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+#trd{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
 }

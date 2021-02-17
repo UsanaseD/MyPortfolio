@@ -1,5 +1,5 @@
 <head>
-    <title> Usanase's</title>
+    <title> hackerRank Java , JavaScript & C++</title>
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/theme.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -27,17 +27,18 @@
     </nav>
 <div class="container-fluid " style="background-color: #ffffff; padding: 100px 16px;" id="hackerRank">
     <h1 class="text-center font-weight-bold"> HackerRank Solutions </h1></br>
-    <div class="d-flex justify-content-center">
+    <div class="row no-gutters">
+    <div class="d-flex justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"id="fst">
     <div class="qn_title">
         <div class="title_bar text-center font-weight-bold">Simple Array Sum
-            <div class="max_min_button">+</div>
+            <div class="max_min_button" id="second">+</div>
         </div>
-        <div class="news_body">Given an array of integers, find the sum of its elements.
+        <div class="news_body" id="body2">Given an array of integers, find the sum of its elements.
         
         For example, if the array arr = [1,2,3],1+2+3 = 6 , so return 6.
     
         <div class="font-weight-bold">Answer(C++):</div></br>
-        <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="50" readonly>
+        <textarea class="simpleArraySum" name="simpleArraySum" rows="10" cols="70" readonly>
             #include<iostream>
                 using namespace std;
                 int main(){
@@ -50,17 +51,91 @@
                 cout<< sum; return 0; }
         </textarea>
     <div class="font-weight-bold">Answer(Js):</div></br>
-        <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="50" readonly>
+        <textarea class="simpleArraySum" name="simpleArraySum" rows="4" cols="70" readonly>
          function simpleArraySum(ar) {
          var sum = ar.reduce((a,b) => a + b ,0);
         return sum
         }
                 </textarea>
     </div>
+    </div> 
+</div>
+    <div class="d-flex justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="snd">
+        <div class="qn_title">
+            <div class="title_bar text-center font-weight-bold">Plus Minus
+                <div class="max_min_button" id="first">+</div>
+            </div>
+            <div class="news_body" id="body1">Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the
+            decimal value of each fraction on a new line with 6 places after the decimal.
+    
+                <div class="font-weight-bold">Answer(Js):</div></br>
+                <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="70" readonly>
+function plusMinus(arr) {
+
+var neg = 0;
+var pos = 0;
+var zer = 0;
+var total = arr.length;
+for(let i = 0 ; i < arr.length ; i++ ){ if (arr[i]> 0){
+    pos ++
+    }
+    else if (arr[i] < 0){ neg ++ } 
+    else { zer ++ }
+ }   console.log((pos/total).toPrecision(6));
+     console.log((neg/total).toPrecision(6));
+     console.log((zer/total).toPrecision(6));
+     }
+            </textarea>
+            </div>
+        </div>
     </div>
+</br></br>
+        <div class="d-flex justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="trd">
+        <div class="qn_title">
+            <div class="title_bar text-center font-weight-bold">Compare the Triplets
+                <div class="max_min_button" id="third">+</div>
+            </div>
+            <div class="news_body" id="body3">Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale
+            from 1 to 100 for three categories: problem clarity, originality, and difficulty.
+            
+            The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the rating for Bob's challenge is the
+            triplet b = (b[0], b[1], b[2]).
+            
+            The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+            
+            If a[i] > b[i], then Alice is awarded 1 point.
+            If a[i] < b[i], then Bob is awarded 1 point. If a[i]=b[i], then neither person receives a point. Comparison points is
+                the total points a person earned. Given a and b, determine their respective comparison points.
+    
+                <div class="font-weight-bold">Answer(Js):</div></br>
+                <textarea class="simpleArraySum" name="simpleArraySum" rows="8" cols="70" readonly>
+function main()
+ {
+var a0_temp = readLine().split(' ');
+var a0 = parseInt(a0_temp[0]);
+var a1 = parseInt(a0_temp[1]);
+var a2 = parseInt(a0_temp[2]);
+var b0_temp = readLine().split(' ');
+var b0 = parseInt(b0_temp[0]);
+var b1 = parseInt(b0_temp[1]);
+var b2 = parseInt(b0_temp[2]);
+var scoreA = 0;
+var scoreB = 0;
+if(a0 > b0) scoreA++;
+if(a0 < b0) scoreB++; if(a1> b1) scoreA++;
+    if(a1 < b1) scoreB++; if(a2> b2) scoreA++;
+        if(a2 < b2) scoreB++; console.log(scoreA + " " + scoreB); 
+    }
+            </textarea>
+            </div>
+        </div>
+    </div>
+
+</div>
 </div>
         <script src="./js/jquery.min.js"></script>
         <script src="jquery-linenumbers.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./js/index.js"></script>
     </body>
+    </head>
